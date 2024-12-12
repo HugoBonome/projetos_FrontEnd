@@ -30,4 +30,8 @@ export class ListaTarefasComponent {
     this.descricao = '';
   }
 
+  public excluirTarefa(id: number): void{
+    this.controlador.excluiTarefa(id);
+  }
+
 }
